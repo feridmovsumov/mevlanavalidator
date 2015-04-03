@@ -1,5 +1,5 @@
 <?php
-namespace mevlana;
+namespace Mevlana;
 
 /**
  * Her türlü doğrulama işlemlerini yapmak için kullanılabilecek sınıf

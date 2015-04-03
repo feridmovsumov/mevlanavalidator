@@ -6,11 +6,11 @@
     "type": "package",
     "package": {
       "name": "feridmovsumov/mevlanavalidator",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "source": {
         "url": "git@github.com:feridmovsumov/mevlanavalidator.git",
         "type": "git",
-        "reference": "1.0.1"
+        "reference": "1.0.2"
       }
     }
   }],
@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-0": {
-      "Validator": "src/"
+      "Mevlana": "src/"
     }
   }
 }
