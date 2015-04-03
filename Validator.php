@@ -72,7 +72,6 @@ class Validator {
      * @param array $keys kontrol edilecek keyler
      * @return boolean
      * @author Ferid Mövsümov
-     * @see https://github.com/ideasoft/global/issues/1471
      */
     public static function doesArrayHasKeys($array, $keys){
         if(!is_array($array)){
@@ -97,7 +96,6 @@ class Validator {
      * İzin verilen karakterler ( A–Z, a–z, 0–9, -, _ )
      * @param string $slug
      * @author Ferid
-     * @see https://github.com/ideasoft/global/issues/1205
      */
     public static function isValidSlug($slug){
         if (! is_string( $slug )) {
@@ -415,7 +413,6 @@ class Validator {
      * @param string $ccNumber
      * @return boolean
      * @author sedat
-     * @see https://github.com/ideasoft/global/issues/1334
      */
     public static function isValidCCNumber($ccNumber) {
         $ccNumber = trim($ccNumber);
@@ -436,7 +433,6 @@ class Validator {
      * @param string $month
      * @return boolean
      * @author sedat
-     * @see https://github.com/ideasoft/global/issues/1334
      */
     public static function isValidCCExpMonth($month) {
         $month = trim($month);
@@ -461,7 +457,6 @@ class Validator {
      * @param string $year
      * @return boolean
      * @author sedat
-     * @see https://github.com/ideasoft/global/issues/1334
      */
     public static function isValidCCExpYear($year,$yearLength=2) {
         $year = trim($year);
@@ -484,7 +479,6 @@ class Validator {
      * @param string $name
      * @return boolean
      * @author sedat
-     * @see https://github.com/ideasoft/global/issues/1334
      */
     public static function isValidCCName($name) {
         $name = trim($name);
