@@ -6,11 +6,11 @@
     "type": "package",
     "package": {
       "name": "feridmovsumov/mevlanavalidator",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "source": {
         "url": "git@github.com:feridmovsumov/mevlanavalidator.git",
         "type": "git",
-        "reference": "1.0.2"
+        "reference": "1.0.3"
       }
     }
   }],
