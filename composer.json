@@ -1,0 +1,22 @@
+{
+  "name": "andrewkirkpatrick/sample",
+  "description": "Sample project",
+  "homepage": "http://www.andrew-kirkpatrick.co.uk",
+  "repositories": [{
+    "type": "package",
+    "package": {
+      "name": "andrewkirkpatrick/library",
+      "version": "0.1.0",
+      "source": {
+        "url": "git@server.co.uk:Repository.git",
+        "type": "git",
+        "reference": "0.1.0"
+      }
+    }
+  }],
+  "require": {
+    "php": ">=5.3.3",
+    "zendframework/zendframework": "2.*",
+    "andrewkirkpatrick/library": "0.1.*"
+  }
+}
